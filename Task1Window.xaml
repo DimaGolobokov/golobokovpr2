@@ -1,0 +1,17 @@
+﻿<Window x:Class="golobokov_pr2.Task1Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Задача 1" Height="280" Width="400">
+    <Grid>
+        <TextBlock Text="Задача 1: Вывести на экран число 2n!, n меньше или равное 100, n - натуральное." 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="380" TextWrapping="Wrap"/>
+
+        <TextBlock Text="Введите число n (натуральное, меньше или равное 100):" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,60,0,0"/>
+        <TextBox Name="NInputTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="10,90,0,0"/>
+
+        <Button Content="Рассчитать" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,130,0,0" Click="Calculate_Click"/>
+
+        <TextBlock Text="Результат:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,170,0,0"/>
+        <TextBlock Name="ResultTextBlock" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,200,0,0" Width="380" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
